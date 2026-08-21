@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Build outputs
+dist/
+build/
+out/
+*.log
+
+# Environment variables
+.env.local
+config.local.js
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# PWA cache
+*.service-worker.js
+
+# Supabase functions (contains sensitive env vars)
+supabase/functions/
+
+# Local config
+config.local.js
